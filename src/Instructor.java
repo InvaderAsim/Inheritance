@@ -6,4 +6,8 @@ public class Instructor extends Person{
 
     String instructor_email;
 
+    Instructor(){
+
+    }
+
 }
