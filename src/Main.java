@@ -14,5 +14,10 @@ public class Main{
        IO.println(p2.name);
 
        Person p3 = p2.Call_Private();
+
+       Student s1 = new Student();
+       s1.age = 20;
+       s1.gpa = 4.00;
+       IO.println(s1.gpa);
     }
 }
